@@ -1,10 +1,10 @@
 # Simpletron
-Fazendo um computador sem precisar soldar algum componente, ele possui uma linguagem própria chamada SML. Vi esse exercício no livro C: como programar, de Paul Deitei e Harvey Deitel. O programa simula um computador capaz de ler, escrever, somar, diminuir, multiplicar, dividir, mudar a posição dos valores na memória, ele também gera um arquivo chamado output.txt com as leituras e resultados, e o dump, que mostra o conteúdo dos registradores e da memória após a execução, nele você consegue ver cada operação realizada em sequência e onde foram colocados os resultados. Fique a vontade para modificar e melhorar. 
+Fazendo um computador sem precisar soldar algum componente, ele possui uma linguagem própria chamada SML (Simpletron Machine Language). Vi esse exercício no livro C: como programar, de Paul Deitei e Harvey Deitel. O programa simula um computador capaz de ler, escrever, somar, diminuir, multiplicar, dividir, mudar a posição dos valores na memória, ele também gera um arquivo chamado output.txt com as leituras e resultados, e o dump, que mostra o conteúdo dos registradores e da memória após a execução, nele você consegue ver cada operação realizada em sequência e onde foram colocados os resultados. Fique a vontade para modificar e melhorar. 
 
 Como a linguagem SML funciona:
 
 Ela é composta de palavras de 4 dígitos, os dois primeiros dígitos são o código de operação, e os dois últimos são o local da memória onde a operação será feita. 
-Primeiro o programa precisa ser carregado na memória, depois ele é executado. Essas são as operações que podem ser feitas(nada te impede de criar mais): <br><br><br>
+Primeiro o programa precisa ser carregado na memória, depois ele é executado. Essas são as operações que podem ser feitas(nada te impede de criar mais): <br><br>
 
 10 - Leitura de um valor em um local da memória
 
@@ -28,12 +28,13 @@ Primeiro o programa precisa ser carregado na memória, depois ele é executado. 
 
 42 - Desvia para um local da memória se o acumulador for zero
 
-43 - Finaliza e mostra o conteúdo dos registradores e da memória<br><br><br>
+43 - Finaliza e mostra o conteúdo dos registradores e da memória<br><br>
 
 
+Deixei exemplos prontos em linguagem SML, para testar deixe o arquivo .txt do programa SML no mesmo diretório que o programa do simpletron, selecione a opção 1 de usar arquivo como entrada, e digite o nome do arquivo com a extensão(por exemplo: soma.txt).<br><br>
 
 
-Exemplo de um programa sendo carregado na memória, que lê dois números e mostra a soma:<br><br><br>
+Exemplo de um programa sendo carregado na memória, que lê dois números e mostra a soma:<br><br>
 
 1007 (lê um número no local 07 da memória)
 
