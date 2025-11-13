@@ -6,6 +6,9 @@ Como a linguagem SML funciona:
 Ela é composta de palavras de 4 dígitos, os dois primeiros dígitos são o código de operação, e os dois últimos são o local da memória onde a operação será feita. 
 Primeiro o programa precisa ser carregado na memória, depois ele é executado. Essas são as operações que podem ser feitas(nada te impede de criar mais):
 
+
+
+
 10 - Leitura de um valor em um local da memória
 
 11 - Escrita de um valor de um local da memória no terminal
@@ -29,6 +32,9 @@ Primeiro o programa precisa ser carregado na memória, depois ele é executado. 
 42 - Desvia para um local da memória se o acumulador for zero
 
 43 - Finaliza e mostra o conteúdo dos registradores e da memória
+
+
+
 
 Exemplo de um programa sendo carregado na memória, que lê dois números e mostra a soma:
 
